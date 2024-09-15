@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IslamicApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- to stop default splash screen   -->
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="colorPrimary">@color/basic_dark</item>
+        <item name="colorPrimaryVariant">@color/basic_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.IslamicApp" parent="Base.Theme.IslamicApp" />
+</resources>
